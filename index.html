@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h2>My Portfolio</h2>
+      <button id="menuBtn">☰</button>
+      <ul id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="themeBtn">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Welcome to My Portfolio!</h1>
+      <img src="b7a0a2bf-30eb-4446-bf9e-4cfedb875c5d.jpg" alt="Sanchit Sagar Rasal">    
+      <h2>Hello, I'm Sanchit Sagar Rasal</h2>
+      <p>I am a student who is passionate about learning technology and developing new skills.</p>
+      <a href="#about">Discover More</a>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+    <p>
+  My name is Sanchit Sagar Rasal. I am a student at
+  BOSSCODER School of Technology. I am passionate about
+  technology, programming and learning new skills.
+  My goal is to become a skilled software developer.
+</p>      
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>School:</strong> Ryan International School</p>
+      <p><strong>College:</strong> Bosscoder school of technology</p>
+      <p><strong>Course:</strong>AI and Machine Learning</p>
+      <p><strong>Department:</strong> web development</p>
+      <p><strong>Academic Year:</strong> 2026</p>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <p>HTML</p>
+      <progress value="70" max="100"></progress>
+      <p>CSS</p>
+      <progress value="60" max="100"></progress>
+      <p>JavaScript</p>
+      <progress value="40" max="100"></progress>
+      <p>Communication</p>
+      <progress value="75" max="100"></progress>
+      <p>Teamwork</p>
+      <progress value="80" max="100"></progress>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>A website that introduces me, my education, skills and projects.</p>
+        <p><strong>Technologies:</strong> HTML, CSS and JavaScript</p>
+        <button class="detailsBtn">Project Details</button>
+      </div>
+    </section>
+
+<section id="projects">
+  <h2>My Projects</h2>
+
+  <div class="project-card">
+    <h3>Personal Portfolio Website</h3>
+    <p>A responsive website showcasing my profile, education, skills and achievements.</p>
+    <p><strong>Technologies:</strong> HTML, CSS and JavaScript</p>
+    <button class="detailsBtn">Project Details</button>
+  </div>
+
+  <div class="project-card">
+    <h3>PayPal AI SmartCart</h3>
+    <p>An AI-powered shopping cart project with product recommendations and PayPal checkout integration.</p>
+    <p><strong>Technologies:</strong> React, Node.js, Express, Gemini AI and PayPal Sandbox</p>
+    <button class="detailsBtn">Project Details</button>
+  </div>
+</section>
+
+
+    <section id="hobbies">
+      <h2>Hobbies and Interests</h2>
+      <p>📚 Reading</p>
+      <p>💻 Learning Technology</p>
+      <p>🎵 Listening to Music</p>
+      <p>🏏 Playing Sports</p>
+    </section>
+
+    
+<section id="achievements">
+  <h2>Achievements</h2>
+
+  <div class="project-card">
+    <h3>PayPal AI SmartCart Hackathon Project</h3>
+    <p>Developing an AI-powered shopping cart using Gemini AI and PayPal Sandbox.</p>
+    <p><strong>Year:</strong> 2026</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Learning and Skill Development</h3>
+    <p>Learning web development, programming and Artificial Intelligence.</p>
+    <p><strong>Year:</strong> 2026</p>
+  </div>
+</section>
+
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: [Your Email Address]</p>
+      <p>LinkedIn: [Your LinkedIn Profile]</p>
+      <p>GitHub: [Your GitHub Profile]</p>
+
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> My Personal Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
